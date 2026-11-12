@@ -9,12 +9,16 @@ the result with librsvg + cairo at 2x scale.
 import html
 import re
 import sys
+import warnings
 
 import cairo
 import gi
 
 gi.require_version("Rsvg", "2.0")
 from gi.repository import Rsvg  # noqa: E402
+
+# get_dimensions/render_cairo are deprecated, but their replacements need librsvg >= 2.52
+warnings.filterwarnings("ignore", category=DeprecationWarning)
 
 FONT_PX = 13
 CHARS_PER_LINE = 17  # fits the 120 px label box at 13 px bold condensed
