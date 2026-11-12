@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1330 800" width="1330" height="800" font-family="Helvetica, Arial, sans-serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#57606a"/></marker></defs>
+<rect width="1330" height="800" rx="12" fill="#ffffff"/>
+<rect x="190" y="410" width="480" height="370" rx="14" fill="#F4FAF2" stroke="#BFDDB8" stroke-dasharray="5 4"/>
+<text x="205" y="434" font-size="13" font-weight="bold" fill="#4A9A3F">KNN branch</text>
+<rect x="680" y="410" width="635" height="370" rx="14" fill="#F2F7FD" stroke="#B9D2EE" stroke-dasharray="5 4"/>
+<text x="695" y="434" font-size="13" font-weight="bold" fill="#3A78C2">Random Forest branch</text>
+<path d="M200,63 L240,63" fill="none" stroke="#57606a" stroke-width="1.6"/>
+<polygon points="240,63 231,58 231,68" fill="#57606a"/>
+<path d="M200,153 L240,153" fill="none" stroke="#57606a" stroke-width="1.6"/>
+<polygon points="240,153 231,148 231,158" fill="#57606a"/>
+<path d="M470,63 L490,63 L490,100 L510,100" fill="none" stroke="#57606a" stroke-width="1.6"/>
+<polygon points="510,100 501,95 501,105" fill="#57606a"/>
+<path d="M470,153 L490,153 L490,116 L510,116" fill="none" stroke="#57606a" stroke-width="1.6"/>
+<polygon points="510,116 501,111 501,121" fill="#57606a"/>
+<path d="M650,108 L690,108" fill="none" stroke="#57606a" stroke-width="1.6"/>
+<polygon points="690,108 681,103 681,113" fill="#57606a"/>
+<path d="M840,108 L880,108" fill="none" stroke="#57606a" stroke-width="1.6"/>
+<polygon points="880,108 871,103 871,113" fill="#57606a"/>
+<path d="M965,131 L965,200" fill="none" stroke="#57606a" stroke-width="1.6"/>
+<polygon points="965,200 960,191 970,191" fill="#57606a"/>
+<path d="M920,246 L920,280 L685,280 L685,310" fill="none" stroke="#57606a" stroke-width="1.6"/>
+<polygon points="685,310 680,301 690,301" fill="#57606a"/>
+<text x="700" y="274" font-size="11" fill="#57606a" font-style="italic">training 70%</text>
+<path d="M1010,246 L1010,280 L1055,280 L1055,310" fill="none" stroke="#57606a" stroke-width="1.6"/>
+<polygon points="1055,310 1050,301 1060,301" fill="#57606a"/>
+<text x="1022" y="274" font-size="11" fill="#57606a" font-style="italic">test 30%</text>
+<path d="M770,333 L960,333" fill="none" stroke="#57606a" stroke-width="1.6" stroke-dasharray="6 4"/>
+<polygon points="960,333 951,328 951,338" fill="#57606a"/>
+<text x="865" y="326" font-size="11" fill="#57606a" font-style="italic">model</text>
+<path d="M640,356 L640,378 L390,378 L390,460" fill="none" stroke="#57606a" stroke-width="1.6"/>
+<polygon points="390,460 385,451 395,451" fill="#57606a"/>
+<text x="400" y="372" font-size="11" fill="#57606a" font-style="italic">training</text>
+<path d="M1000,356 L1000,394 L470,394 L470,460" fill="none" stroke="#57606a" stroke-width="1.6"/>
+<polygon points="470,460 465,451 475,451" fill="#57606a"/>
+<text x="900" y="388" font-size="11" fill="#57606a" font-style="italic">test</text>
+<path d="M720,356 L720,460" fill="none" stroke="#57606a" stroke-width="1.6"/>
+<polygon points="720,460 715,451 725,451" fill="#57606a"/>
+<path d="M1100,356 L1100,460" fill="none" stroke="#57606a" stroke-width="1.6"/>
+<polygon points="1100,460 1095,451 1105,451" fill="#57606a"/>
+<text x="1108" y="440" font-size="11" fill="#57606a" font-style="italic">test</text>
+<path d="M880,483 L960,483" fill="none" stroke="#57606a" stroke-width="1.6" stroke-dasharray="6 4"/>
+<polygon points="960,483 951,478 951,488" fill="#57606a"/>
+<text x="920" y="476" font-size="11" fill="#57606a" font-style="italic">model</text>
+<path d="M425,506 L425,570" fill="none" stroke="#57606a" stroke-width="1.6"/>
+<polygon points="425,570 420,561 430,561" fill="#57606a"/>
+<path d="M1055,506 L1055,570" fill="none" stroke="#57606a" stroke-width="1.6"/>
+<polygon points="1055,570 1050,561 1060,561" fill="#57606a"/>
+<path d="M380,616 L380,650 L320,650 L320,680" fill="none" stroke="#57606a" stroke-width="1.6"/>
+<polygon points="320,680 315,671 325,671" fill="#57606a"/>
+<text x="230" y="644" font-size="11" fill="#57606a" font-style="italic">confusion matrix</text>
+<path d="M470,616 L470,650 L550,650 L550,680" fill="none" stroke="#57606a" stroke-width="1.6"/>
+<polygon points="550,680 545,671 555,671" fill="#57606a"/>
+<text x="482" y="644" font-size="11" fill="#57606a" font-style="italic">accuracy statistics</text>
+<path d="M1010,616 L1010,650 L960,650 L960,680" fill="none" stroke="#57606a" stroke-width="1.6"/>
+<polygon points="960,680 955,671 965,671" fill="#57606a"/>
+<text x="860" y="644" font-size="11" fill="#57606a" font-style="italic">confusion matrix</text>
+<path d="M1100,616 L1100,650 L1190,650 L1190,680" fill="none" stroke="#57606a" stroke-width="1.6"/>
+<polygon points="1190,680 1185,671 1195,671" fill="#57606a"/>
+<text x="1112" y="644" font-size="11" fill="#57606a" font-style="italic">accuracy statistics</text>
+<rect x="30" y="40" width="170" height="46" rx="8" fill="#FDE8D2" stroke="#D9822B" stroke-width="1.6"/>
+<text x="115.0" y="59" font-size="13" font-weight="bold" text-anchor="middle" fill="#1f2328">CSV Reader</text>
+<text x="115.0" y="76" font-size="11" text-anchor="middle" fill="#424a53" font-family="Menlo, Consolas, monospace">winequality-red.csv</text>
+<rect x="30" y="130" width="170" height="46" rx="8" fill="#FDE8D2" stroke="#D9822B" stroke-width="1.6"/>
+<text x="115.0" y="149" font-size="13" font-weight="bold" text-anchor="middle" fill="#1f2328">CSV Reader</text>
+<text x="115.0" y="166" font-size="11" text-anchor="middle" fill="#424a53" font-family="Menlo, Consolas, monospace">winequality-white.csv</text>
+<rect x="240" y="40" width="230" height="46" rx="8" fill="#FFF6C7" stroke="#C9A800" stroke-width="1.6"/>
+<text x="355.0" y="59" font-size="13" font-weight="bold" text-anchor="middle" fill="#1f2328">Constant Value Column Appender</text>
+<text x="355.0" y="76" font-size="11" text-anchor="middle" fill="#424a53">type = red</text>
+<rect x="240" y="130" width="230" height="46" rx="8" fill="#FFF6C7" stroke="#C9A800" stroke-width="1.6"/>
+<text x="355.0" y="149" font-size="13" font-weight="bold" text-anchor="middle" fill="#1f2328">Constant Value Column Appender</text>
+<text x="355.0" y="166" font-size="11" text-anchor="middle" fill="#424a53">type = white</text>
+<rect x="510" y="85" width="140" height="46" rx="8" fill="#FFF6C7" stroke="#C9A800" stroke-width="1.6"/>
+<text x="580.0" y="113" font-size="13" font-weight="bold" text-anchor="middle" fill="#1f2328">Concatenate</text>
+<rect x="690" y="85" width="150" height="46" rx="8" fill="#FFF6C7" stroke="#C9A800" stroke-width="1.6"/>
+<text x="765.0" y="104" font-size="13" font-weight="bold" text-anchor="middle" fill="#1f2328">One to Many</text>
+<text x="765.0" y="121" font-size="11" text-anchor="middle" fill="#424a53">type → red, white</text>
+<rect x="880" y="85" width="170" height="46" rx="8" fill="#FFF6C7" stroke="#C9A800" stroke-width="1.6"/>
+<text x="965.0" y="104" font-size="13" font-weight="bold" text-anchor="middle" fill="#1f2328">Number to String</text>
+<text x="965.0" y="121" font-size="11" text-anchor="middle" fill="#424a53">quality</text>
+<rect x="880" y="200" width="170" height="46" rx="8" fill="#FFF6C7" stroke="#C9A800" stroke-width="1.6"/>
+<text x="965.0" y="219" font-size="13" font-weight="bold" text-anchor="middle" fill="#1f2328">Table Partitioner</text>
+<text x="965.0" y="236" font-size="11" text-anchor="middle" fill="#424a53">70 / 30, stratified</text>
+<rect x="600" y="310" width="170" height="46" rx="8" fill="#FFF6C7" stroke="#C9A800" stroke-width="1.6"/>
+<text x="685.0" y="329" font-size="13" font-weight="bold" text-anchor="middle" fill="#1f2328">Normalizer</text>
+<text x="685.0" y="346" font-size="11" text-anchor="middle" fill="#424a53">min-max</text>
+<rect x="960" y="310" width="190" height="46" rx="8" fill="#FFF6C7" stroke="#C9A800" stroke-width="1.6"/>
+<text x="1055.0" y="338" font-size="13" font-weight="bold" text-anchor="middle" fill="#1f2328">Normalizer (Apply)</text>
+<rect x="330" y="460" width="190" height="46" rx="8" fill="#DCF2D6" stroke="#4A9A3F" stroke-width="1.6"/>
+<text x="425.0" y="479" font-size="13" font-weight="bold" text-anchor="middle" fill="#1f2328">K Nearest Neighbor</text>
+<text x="425.0" y="496" font-size="11" text-anchor="middle" fill="#424a53">k = 3</text>
+<rect x="690" y="460" width="190" height="46" rx="8" fill="#DCF2D6" stroke="#4A9A3F" stroke-width="1.6"/>
+<text x="785.0" y="479" font-size="13" font-weight="bold" text-anchor="middle" fill="#1f2328">Random Forest Learner</text>
+<text x="785.0" y="496" font-size="11" text-anchor="middle" fill="#424a53">target: quality</text>
+<rect x="960" y="460" width="190" height="46" rx="8" fill="#D9E8FA" stroke="#3A78C2" stroke-width="1.6"/>
+<text x="1055.0" y="488" font-size="13" font-weight="bold" text-anchor="middle" fill="#1f2328">Random Forest Predictor</text>
+<rect x="330" y="570" width="190" height="46" rx="8" fill="#ECE1F8" stroke="#7A4FB5" stroke-width="1.6"/>
+<text x="425.0" y="589" font-size="13" font-weight="bold" text-anchor="middle" fill="#1f2328">Scorer</text>
+<text x="425.0" y="606" font-size="11" text-anchor="middle" fill="#424a53">quality vs Class [kNN]</text>
+<rect x="960" y="570" width="190" height="46" rx="8" fill="#ECE1F8" stroke="#7A4FB5" stroke-width="1.6"/>
+<text x="1055.0" y="589" font-size="13" font-weight="bold" text-anchor="middle" fill="#1f2328">Scorer</text>
+<text x="1055.0" y="606" font-size="11" text-anchor="middle" fill="#424a53">quality vs Prediction (quality)</text>
+<rect x="210" y="680" width="220" height="46" rx="8" fill="#FDE8D2" stroke="#D9822B" stroke-width="1.6"/>
+<text x="320.0" y="699" font-size="13" font-weight="bold" text-anchor="middle" fill="#1f2328">CSV Writer</text>
+<text x="320.0" y="716" font-size="11" text-anchor="middle" fill="#424a53" font-family="Menlo, Consolas, monospace">results/wine_knn_confusion.csv</text>
+<rect x="440" y="680" width="220" height="46" rx="8" fill="#FDE8D2" stroke="#D9822B" stroke-width="1.6"/>
+<text x="550.0" y="699" font-size="13" font-weight="bold" text-anchor="middle" fill="#1f2328">CSV Writer</text>
+<text x="550.0" y="716" font-size="11" text-anchor="middle" fill="#424a53" font-family="Menlo, Consolas, monospace">results/wine_knn_metrics.csv</text>
+<rect x="850" y="680" width="220" height="46" rx="8" fill="#FDE8D2" stroke="#D9822B" stroke-width="1.6"/>
+<text x="960.0" y="699" font-size="13" font-weight="bold" text-anchor="middle" fill="#1f2328">CSV Writer</text>
+<text x="960.0" y="716" font-size="11" text-anchor="middle" fill="#424a53" font-family="Menlo, Consolas, monospace">results/wine_rf_confusion.csv</text>
+<rect x="1080" y="680" width="220" height="46" rx="8" fill="#FDE8D2" stroke="#D9822B" stroke-width="1.6"/>
+<text x="1190.0" y="699" font-size="13" font-weight="bold" text-anchor="middle" fill="#1f2328">CSV Writer</text>
+<text x="1190.0" y="716" font-size="11" text-anchor="middle" fill="#424a53" font-family="Menlo, Consolas, monospace">results/wine_rf_metrics.csv</text>
+<text x="30" y="230" font-size="12" font-weight="bold" fill="#1f2328">Node type</text>
+<rect x="30" y="244" width="18" height="14" rx="3" fill="#FDE8D2" stroke="#D9822B" stroke-width="1.4"/>
+<text x="56" y="255" font-size="12" fill="#424a53">Read / write</text>
+<rect x="30" y="268" width="18" height="14" rx="3" fill="#FFF6C7" stroke="#C9A800" stroke-width="1.4"/>
+<text x="56" y="279" font-size="12" fill="#424a53">Data preparation</text>
+<rect x="30" y="292" width="18" height="14" rx="3" fill="#DCF2D6" stroke="#4A9A3F" stroke-width="1.4"/>
+<text x="56" y="303" font-size="12" fill="#424a53">Learner / classifier</text>
+<rect x="30" y="316" width="18" height="14" rx="3" fill="#D9E8FA" stroke="#3A78C2" stroke-width="1.4"/>
+<text x="56" y="327" font-size="12" fill="#424a53">Predictor</text>
+<rect x="30" y="340" width="18" height="14" rx="3" fill="#ECE1F8" stroke="#7A4FB5" stroke-width="1.4"/>
+<text x="56" y="351" font-size="12" fill="#424a53">Evaluation</text>
+<path d="M30,371 L48,371" stroke="#57606a" stroke-width="1.6" stroke-dasharray="6 4"/>
+<text x="56" y="375" font-size="12" fill="#424a53">model port</text>
+</svg>

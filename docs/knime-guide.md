@@ -16,21 +16,7 @@ In the paths below, `<repo>` means `/home/artmear/Desktop/workshop`.
 
 Open `wine`. Most of the chain already exists:
 
-```
-CSV Reader (red) ── Constant Value Column Appender (type=red) ──┐
-                                                                ├─ Concatenate ─ One to Many (type) ─ Number to String (quality)
-CSV Reader (white) ─ Constant Value Column Appender (type=white)┘                                          │
-                                                                                                  Table Partitioner
-                                                                                                   │            │
-                                                                                         Normalizer ──model── Normalizer (Apply)
-                                                                                           │                    │
-                                                                           (training) ─────┴────────┬───────────┴───── (test)
-                                                                                                    │
-                                                                         ┌──────────────────────────┴──────────────────────┐
-                                                                  K Nearest Neighbor                      Random Forest Learner → Random Forest Predictor
-                                                                         │                                                  │
-                                                                      Scorer → 2 × CSV Writer                         Scorer → 2 × CSV Writer
-```
+![Wine workflow: shared Partition feeding a KNN and a Random Forest branch](images/wine-workflow.svg)
 
 ### 1.1 Point the readers at the repo
 
