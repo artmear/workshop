@@ -49,8 +49,8 @@ Each Scorer has two outputs:
 - **Bottom:** the accuracy statistics (accuracy, Cohen's kappa, per-class values).
 
 Connect a **CSV Writer** to each output (4 writers in total). Use these settings on every writer:
-- Tick **Write row ID**, because the row IDs hold the class names and the "Overall" row.
-- Set "If exists" to **overwrite**.
+- Tick **Write RowIDs**, because the RowIDs hold the class names and the "Overall" row.
+- Set **If exists** to **Overwrite** (the default is Fail).
 - Tick **Create missing folders**.
 
 | Scorer | Output | File |
