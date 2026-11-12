@@ -9,7 +9,7 @@ The Wine Quality dataset with red and white wines combined into one table, where
 _Avoid_: wine red / wine white (as separate datasets), wines
 
 **Adult**:
-The Adult census income dataset, using only the `adult.data` file.
+The Adult census income dataset, using only the `adult.data` file (read as `adult.csv`).
 _Avoid_: adults, census
 
 **Attribute**:

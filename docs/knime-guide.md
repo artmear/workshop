@@ -68,12 +68,11 @@ Create a new workflow called `adult` and add these nodes in order. The finished 
 
 ### 2.1 CSV Reader
 
-- **File:** `<repo>/datasets/adults/adult.data`
-- **Column delimiter:** `,`
-- **Has column header:** off (the file has no header).
-- **Quoted strings:** "Remove quotes and trim whitespace" (default). The values start with a space (`" Private"`), and this setting removes it.
-- **Column names:** rename the columns, in this order:
-  `age, workclass, fnlwgt, education, education-num, marital-status, occupation, relationship, race, sex, capital-gain, capital-loss, hours-per-week, native-country, income`
+- **File:** `<repo>/datasets/adults/adult.csv`
+- **Column delimiter:** `,` (detected automatically).
+- **Has column header:** on.
+
+`adult.csv` is `adult.data` converted to a regular CSV: it has a header row with the column names and no leading spaces. Missing values are still written as `?`.
 
 Expected: 32 561 rows, 15 columns.
 
