@@ -38,6 +38,16 @@ KNIME workshop report. Two classification algorithms, **KNN** and **Random Fores
 
 Each dataset has its own KNIME workflow ([`workflows/wine.knwf`](workflows/wine.knwf) and [`workflows/adult.knwf`](workflows/adult.knwf)). The node-by-node build is in [`docs/knime-guide.md`](docs/knime-guide.md).
 
+**Wine workflow in KNIME** (top: Random Forest branch, bottom: KNN branch)
+
+![Wine workflow in KNIME](docs/images/knime-wine.png)
+
+**Adult workflow in KNIME** (top: KNN branch, bottom: Random Forest branch)
+
+![Adult workflow in KNIME](docs/images/knime-adult.png)
+
+The images are rendered from the `workflow.svg` file that KNIME saves in each workflow folder, using [`scripts/knime_svg_to_png.py`](scripts/knime_svg_to_png.py). In the Wine image, the two CSV Writers of the Random Forest branch show an error. They are set to "If exists: Fail" and the last run found the files from the first run already there. The Random Forest Results in `results/` come from that first run.
+
 1. **Read:**
    - **Wine:** the two CSV files are read, a `type` column (`red`/`white`) is appended, and the tables are concatenated.
    - **Adult:** `adult.csv` is read.

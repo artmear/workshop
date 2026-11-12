@@ -128,4 +128,4 @@ Add 4 CSV Writers with the same settings as in 1.5:
    - Right-click it in the Explorer → **Export KNIME Workflow…**
    - Destination: `<repo>/workflows/wine.knwf` and `<repo>/workflows/adult.knwf`.
    - Tick **Reset workflow before export**, so the files stay small. The Results are already in `results/`.
-3. Tell Claude. It reads `results/` and writes `relatorio.md`.
+3. Tell Claude. It reads `results/` and writes `report.md`.
