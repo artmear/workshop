@@ -82,7 +82,7 @@ In Adult, missing values are written as the text `?`. They only appear in three 
 
 - Match: **Any criterion**
 - Criteria: `workclass` = `?`, `occupation` = `?`, `native-country` = `?`
-- **Exclude** the matching rows.
+- **Filter behavior** (scroll down, below the criteria): **Output non-matching rows**.
 
 Expected: 30 162 rows left.
 
