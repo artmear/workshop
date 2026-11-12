@@ -33,3 +33,7 @@ _Avoid_: split, cross-validation
 **Result**:
 The confusion matrix plus metrics (accuracy, Cohen's kappa) produced by the Scorer for one dataset × algorithm combination.
 _Avoid_: output, score
+
+**Baseline**:
+The accuracy of always predicting the most frequent Target value of the test Partition; a model is only useful if it beats it.
+_Avoid_: majority classifier, ZeroR, dummy model
