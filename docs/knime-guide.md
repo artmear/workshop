@@ -62,7 +62,9 @@ Connect a **CSV Writer** to each output (4 writers in total). Use these settings
 
 ## 2. Adult workflow
 
-Create a new workflow called `adult` and add these nodes in order.
+Create a new workflow called `adult` and add these nodes in order. The finished workflow looks like this:
+
+![Adult workflow: Row Filter and One to Many, then a shared Partition feeding a KNN and a Random Forest branch](images/adult-workflow.svg)
 
 ### 2.1 CSV Reader
 
